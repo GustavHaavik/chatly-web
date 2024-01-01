@@ -2,10 +2,9 @@ import { Fragment, useState, useRef, useEffect } from "react";
 import "./App.css";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { io } from "socket.io-client";
-import { Dialog, Menu, Transition } from "@headlessui/react";
+import { Dialog, Transition } from "@headlessui/react";
 import {
   Bars3Icon,
-  Cog6ToothIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 

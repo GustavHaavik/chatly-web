@@ -14,6 +14,7 @@ export default {
     "text-ctp-sky",
   ],
   plugins: [
+    // eslint-disable-next-line no-undef
     require("@catppuccin/tailwindcss")({
       prefix: "ctp",
       defaultFlavour: "mocha",
